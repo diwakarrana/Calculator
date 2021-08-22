@@ -1,0 +1,111 @@
+.bg-img {
+    background-image: url('https://i.gifer.com/7gPM.gif');
+    /* background-image: url('./images/background.jpg'); */
+    background-color: black;
+    /* background will be black if gif source will not work */
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.headerSet{
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerSet h2 {
+    font-size: 40px;
+}
+.headerSet h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+
+/* *********************************************************************************** */
+.ourservices{
+    padding: 100px 0px 50px;
+    height: 100vh;
+}
+.ourservices h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.ourservices h2{
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rowcustom{
+    margin: 30px 0px;
+}
+.service-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+.fa-cart-plus{
+    margin-top: 20px;
+}
+
+
+/* ********************************************portfolio */
+
+.portfolio{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    padding: 80px 0px 50px;
+}
+.portfolio h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.card {
+    margin-top: 30px;
+}
+
+
+/* our team....................................................................... */
+
+.ourTeam{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0px 50px;
+}
+
+.ourTeam h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.team-row-setting{
+    margin-top: 30px;
+}
+/* ....................... */
+
+.figure-img {
+    border-radius: 50%;
+}
+/* ....................... */
+.footer{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* 8888888888888888888888use media query for responsiveness88888888888888888888888 */
+
+

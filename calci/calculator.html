@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="calc">Scientific Calculator Here
+    </div>
+
+    <div class="mainContainer">
+        <div>
+            <input class="input_data" type="text" id="inputfield" placeholder="0">
+        </div>
+        <div>
+            <input class="button" type="button" value="sin" onclick="sin()">
+            <input class="button" type="button" value="cos" onclick="cos()">
+            <input class="button" type="button" value="tan" onclick="tan()">
+            <input class="button" type="button" value="C" onclick="remv()">
+        </div>
+        <div>
+            <input class="button" type="button" value="x^2" onclick="square()">
+            <input class="button" type="button" value="x^3" onclick="cubed()">
+            <input class="button" type="button" value="sqrt2" onclick="sqrt2()">
+            <input class="button" type="button" value="sqrt3" onclick="sqrt3()">
+        </div>
+        <div>
+            <input class="button" type="button" value="1" onclick="number(value)">
+            <input class="button" type="button" value="2" onclick="number(value)">
+            <input class="button" type="button" value="3" onclick="number(value)">
+            <input class="button" type="button" value="<-" onclick="BACKSPC()">
+        </div>
+        <div>
+            <input class="button" type="button" value="4" onclick="number(value)">
+            <input class="button" type="button" value="5" onclick="number(value)">
+            <input class="button" type="button" value="6" onclick="number(value)">
+            <input class="button" type="button" value="-" onclick="number(value)">
+        </div>
+        <div>
+            <input class="button" type="button" value="7" onclick="number(value)">
+            <input class="button" type="button" value="8" onclick="number(value)">
+            <input class="button" type="button" value="9" onclick="number(value)">
+            <input class="button" type="button" value="/" onclick="number(value)">
+        </div>
+        <div>
+            <input class="button" type="button" value="." onclick="number(value)">
+            <input class="button" type="button" value="0" onclick="number(value)">
+            <input class="button" type="button" value="*" onclick="number(value)">
+            <input class="button" type="button" value="%" onclick="number(value)">
+        </div>
+        <div>
+            <input class="buttonequal" type="button" value="=" onclick="equal()">
+            <input class="buttonequal" type="button" value="+" onclick="number(value)">
+        </div>
+    </div>
+
+    <div class="container text-center" style="margin-top: 10px;">
+    <button class="btn btn-warning text-white btn-lg" onclick="goHome()">go home</button>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
